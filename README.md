@@ -1,5 +1,42 @@
 # 한동길
 
+## 4주차 23.03.23
+
+#### 1.JSX
+    태그로 표현가능, 가독성때문에 사용
+        ex) const element= <h1>HEllo, world</h1>; 
+
+    따옴표 사용 
+        ex) const element= 'name';
+    
+    빈 태그는 '/' 사용
+        ex) <br/>
+### 2.JSX의 역활
+    1.내부적으로 XML/HTML 코드를 JAVA SCRIPT코드로 변환
+    2.React가 creatElement함수를 사용해 자동으로 JAVA SCRIPT코드로 변환
+    3.만일 JS로 작업할 경우 creatElement함수를 사용해야함
+    4.가독성을 높여주는 역활을 수행
+
+### 3.JSX의 장점
+    1.간결한 코드
+    2.가동성의 향상
+    3.Injection Attack이라는 해킹방법을 방어함으로 보안에 강함
+### 4.JSX의 사용법
+    1.모든 자바스크립트 문법 지원
+    2.자바 스크립트 문법 + XML + HTML
+    3.만일 html이나 xml에 자바스크립트 코드를 사용하고싶으면 {}괄호를 사용
+    
+    태그의 속성값을 넣을 때
+        1.큰따옴표 사이에 문자열 넣기
+            ex) const element = <div tabIndex="0"></div>;
+        2.중괄호 사이에 자바스크립트 코드 넣기
+            ex) const element = <img src = {user.avatarurl}></img>;
+
+
+    
+
+
+
 ## 3주차 23.03.16
 
 ### 1.웹사이트 chocolately 이용방법, node.js 설치
@@ -30,4 +67,6 @@
 ## 2주차 23.03.09 
 
 ### github연결 및 설정
-    npx create-react-app 23-react1
+    프로젝트 생성 명령어
+        npx create-react-app 23-react1
+    
