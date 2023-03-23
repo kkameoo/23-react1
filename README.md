@@ -1,70 +1,33 @@
-# Getting Started with Create React App
+# 한동길
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 3주차 23.03.16
 
-## Available Scripts
+### 1.웹사이트 chocolately 이용방법, node.js 설치
+### 2.node버전 확인 명령어, npm 확인 명령어
+    node --version
+    npm --version
+### 3.리액트 개념 정리
+    - 복잡한 사이트를 쉽고 빠르게 만들고,관리하기 위해 만들어진 것
+    - 다른 표현으로는 SPA를 쉽고 빠르게 만들 수 있도록 해주는 도구라고 생각하면 됨
+### 4.장점
+    - 빠른 업데이트와 렌더링 속도
+        DOM 동기식 <-> Virtual DOM 비동기식
+        DOM - XML,HTML 각 문서의 항목을 계층으로 표현해 생성,변형,삭제할 수 있도록 돕는 인터페이스
+        Virtual DOM - DOM의 조작을 효율적으로 만들어 속도를 향상시킨 방법
+### 5.컴포넌트 기반 구조
+    - 리액트의 모든 페이지는 컴포넌트로 구성
+    - 하나의 컴포넌트는 다른 여러 개의 컴포넌트의 조합으로 구성
+### 6.재사용성
+    - 반복적인 작업을 줄여서 생산성을 높임
+    - 유지보수가 용이함
+    - 재사용이 가능 하려면 해당 모듈의 의존성이 없어야 함
+### 7.오픈소스, 활발할 지식공유, 모바일 앱 개발가능
 
-In the project directory, you can run:
+### 8.단점
+    - 방대한 학습량
+    - 높은 상태 관리 복잡도
 
-### `npm start`
+## 2주차 23.03.09 
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### github연결 및 설정
+    npx create-react-app 23-react1
